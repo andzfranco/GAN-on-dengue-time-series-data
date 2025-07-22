@@ -7,13 +7,13 @@ In my undergraduate thesis, I implemented a Generative Adversarial Network (GAN)
 - `Data/`:  
   Contains the dengue time series dataset and the missing rate - gaplength data obtained from OpenDengueData with artificially induced missing values.
 
-- 'OpenDengueData/':
+- `OpenDengueData/`:
   Public dataset obtained from Clarke et al., consisting of global dengue case reports. Used as a reference or external validation set for dengue trends.
 
-- 'GAN_torch_code.ipynb':
+- `GAN_torch_code.ipynb`:
   Contains the core PyTorch implementation of the GAN model used for imputing missing time series data.
 
-- 'GAN_validations.ipynb':
+- `GAN_validations.ipynb`:
   To evaluate imputation performance of the GAN model using:  
     RMSE (Root Mean Squared Error)
     SMAPE (Symmetric Mean Absolute Percentage Error)
